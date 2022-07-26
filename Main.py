@@ -27,7 +27,7 @@ class Stack:
 
     def status(self):
         for item in self.items:
-            print(item)karunya
+            print(item)
         # Write code here
 
 # Do not change the following code
