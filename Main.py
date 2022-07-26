@@ -5,20 +5,29 @@ class Stack:
         self.size = size
 
     def is_empty(self):
+         if len(self.items) == 0:
+            return True
         # Write code here
 
     def is_full(self):
+         if len(self.items) == 0:
+            return True
         # Write code here
 
     def push(self, data):
         if not self.is_full():
+             self.items.append(data)
             # Write code here
 
     def pop(self):
         if not self.is_empty():
+            x = self.items.pop()
+            return x
             # Write code here
 
     def status(self):
+        for item in self.items:
+            print(item)karunya
         # Write code here
 
 # Do not change the following code
